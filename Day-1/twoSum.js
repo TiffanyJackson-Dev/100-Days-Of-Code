@@ -1,4 +1,4 @@
-function twoSum(nums, target) {
+var twoSum = function(nums, target) {
     let numMap = new Map();
     for (let i = 0; i < nums.length; i++) {
         let complement = target - nums[i];
